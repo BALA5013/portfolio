@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balavignesh K - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #0f0f0f;
+      color: #f4f4f4;
+    }
+    header {
+  background: radial-gradient(circle, #1e1e2f, #0f0f0f);
+  color: white;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+    header img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ff4a57;
+  box-shadow: 0 0 15px #ff4a57;
+}
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.5rem;
+      margin-top: 20px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #d1d1d1;
+    }
+    .nav-btns {
+      margin-top: 20px;
+    }
+    .nav-btns a {
+      display: inline-block;
+      background: #ff4a57;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .nav-btns a:hover {
+      background: #e63946;
+    }
+    section {
+  background: #1a1a1a;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 1000px;
+  box-shadow: 0 0 30px rgba(255, 74, 87, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 40px rgba(255, 74, 87, 0.3);
+}
+    h2 {
+      color: #ff4a57;
+      margin-bottom: 15px;
+      font-size: 1.8em;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 10px;
+      color: #ddd;
+    }
+    p, a {
+      color: #ccc;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .contact {
+      text-align: center;
+    }
+  
+.right-col img { transition: transform 0.5s ease; }
+.right-col img:hover { transform: scale(1.05); }
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+  padding: 40px;
+  border-bottom: 2px solid #333;
+}
+.intro-left {
+  flex: 1;
+}
+.intro-left h2 {
+  font-size: 2.5em;
+  color: #ff4a57;
+  margin-bottom: 10px;
+}
+.intro-left p {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.intro-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.intro-buttons .btn {
+  background: #ff4a57;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.intro-buttons .btn:hover {
+  background: #e63946;
+}
+.intro-right {
+  flex: 1;
+  text-align: right;
+}
+.profile-frame {
+  width: 250px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 40% 60% 55% 45% / 55% 50% 60% 40%;
+  border: 5px solid #ff4a57;
+  box-shadow: 0 0 20px rgba(255, 74, 87, 0.4);
+}
+</style>
+<script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <div class="intro-section">
+    <div class="intro-left">
+      <h2>Balavignesh K</h2>
+      <p>Aspiring Cloud Engineer | Data Analyst | ML Engineer</p>
+      <div class="intro-buttons">
+        <a href="#about" class="btn">About Me</a>
+        <a href="#career" class="btn">Career Objective</a>
+        <a href="mailto:balavigneshk2222@gmail.com" class="btn">Email</a>
+        <a href="https://www.linkedin.com/in/balavignesh-k-794a6a235/" class="btn" target="_blank">LinkedIn</a>
+        <a href="resume.pdf" class="btn" target="_blank">View Resume</a>
+        <a href="#internship" class="btn">Internship</a>
+      </div>
+    </div>
+    <div class="intro-right">
+      <img src="bala.jpg" alt="Profile Photo" class="profile-frame" />
+    </div>
+  </div>
+
+  </header>
+   <section id="about">
+  <h2>About Me</h2>
+  <p>Aspiring Cloud Engineer, Junior Data Analyst, and Machine Learning Engineer with a strong foundation in software development, cloud computing, and project management. I'm passionate about AWS, DevOps, and building efficient, scalable cloud-based solutions. My journey is driven by curiosity and a commitment to continuous learning—especially in the realms of data analytics, machine learning, and cloud engineering.</p>
+  <p>As a proud member of the Youth Red Cross, community service is a core value of mine. I’ve led impactful initiatives such as blood donation camps, tree planting drives, and poster-making competitions, blending creativity with social responsibility.</p>
+  <p>Outside of tech, I enjoy cooking and exploring diverse music genres, which help me stay creative and balanced.</p>
+</section>
+  <section id="career">
+    <h2>Career Objective</h2>
+    <p>Seeking an entry-level opportunity in a dynamic IT environment to apply technical skills, contribute to innovative projects, and grow professionally in Cloud, Data, or Machine Learning domains. Equipped with practical experience in Machine Learning, Data Analysis, and AWS Cloud services through academic and real-time projects.</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>M.Tech in Cloud Computing</strong>, SRM IST, Kattankulathur (2025–2027)-96%</li>
+      <li><strong>B.Tech IT</strong>, SRM Valliammai Engineering College, 2025 – 91%</li>
+      <li>12th, Sri Sankara Vidyalaya, 2021 – 89.6%</li>
+      <li>10th, Sri Sankara Vidyalaya, 2019 – 80.6%</li>
+    </ul>
+  </div>
+  
+</section>
+
+  <section>
+    <h2>AWS Cloud Training (June 11 – July 11, 2025)</h2>
+    <ul>
+      <li>EC2 (Windows/Linux), Linux commands, directory structure</li>
+      <li>Website hosting using Apache, WinSCP file transfers</li>
+      <li>Classic & Application Load Balancers, IIS config</li>
+      <li>Elastic IP, VPC setup, peering, public/private keys</li>
+      <li>IAM roles, S3 bucket integration with EC2</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Key Skills</h2>
+    <ul>
+      <li>Data Analytics</li>
+      <li>Python</li>
+      <li>Machine Learning</li>
+      <li>AWS & DevOps</li>
+      <li>Teamwork</li>
+      <li>Leadership</li>
+    </ul>
+  </section>
+
+  <section id="internship">
+  <h2>Internship Experience</h2>
+  <ul>
+    <li><strong>Nexila Technologies · AWS Engineer Internship</strong><br>June 11 2025 - July 11 2025 · On-site · Tambaram, Tamil Nadu, India<br>Worked on static web hosting, EC2 (Windows/Linux), WinSCP, IAM, S3 and Cloud Services.</li>
+    <li><strong>Bharat Intern · Machine Learning Engineer Internship</strong><br>May 2024 - Jun 2024 · Remote<br>Projects: 1. Iris Classification – ML model to classify iris species. 2. House Price Prediction – Predictive model for estimating house prices.</li>
+    <li><strong>RETECH Solutions Pvt Ltd · Data Analyst Internship</strong><br>Dec 12, 2023 - Dec 26, 2023 · Tambaram, Tamil Nadu, India<br>Specialized in sales prediction using SVR. Analyzed retail trends and sales dynamics with time-series data.</li>
+    <li><strong>Pantechelearning · Data Analyst Internship</strong><br>Aug 2023 · Chennai, Tamil Nadu, India<br>
+      i) Excel Pivot Table Analysis – Salary Data<br>
+      ii) Tableau Cookies Analysis<br>
+      iii) Power BI Project – HR Data Analytics<br>
+      iv) ML Credit Score Classification – Risk profiling with ML algorithms
+    </li>
+  </ul>
+</section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>Cloud Architecting - AWS Academy Graduate, 2025</li>
+      <li>Cloud Operations - AWS Academy Graduate,2025</li>
+      <li>ML Projects – Great Learning,2024</li>
+      <li>Data Analytics – Pantech E Learning,2023</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Workshops & Activities</h2>
+    <ul>
+      <li>Data Science using Python – Feb 2024</li>
+      <li>Explainable AI – Mar 2024</li>
+      <li>Event Organizer – MYSTICODE, SRM</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Leadership – VeCoders Club (2024–2025)</h2>
+    <p><strong>Velight Committee Head</strong> – SRM Valliammai Engineering College</p>
+    <ul>
+      <li>Led and coordinated magazine committee</li>
+      <li>Approved articles, supervised design</li>
+      <li>Documented vCoders events</li>
+      <li>Proposed creative content ideas</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Community Service</h2>
+    <p>As a YRC Member, I’ve volunteered in blood donation camps, led tree-planting drives, and participated in poster competitions.</p>
+  </section>
+
+  <section>
+    <h2>Get in Touch</h2>
+    <p>You can reach out to me through the details below, or click the buttons at the top of the page:</p>
+  </section>
+  <section class="contact">
+    <h2>Contact Info</h2>
+    <p>Email: <a href="mailto:balavigneshk2222@gmail.com">balavigneshk2222@gmail.com</a></p>
+    <p>Phone: +91 99520 55157</p>
+    <p>Address: No 210, GST Road, Guduvancheri, Chennai – 603202</p>
+  </section>
+<script>
+  ScrollReveal().reveal('header', {
+    duration: 1000,
+    origin: 'top',
+    distance: '50px'
+  });
+  ScrollReveal().reveal('section', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '40px',
+    interval: 200
+  });
+</script>
+</body>
+</html>
+
+
+
